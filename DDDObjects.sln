@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDDObjects", "DDDObjects.csproj", "{C93E0427-790B-4BD7-A65B-E9B382E178DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C93E0427-790B-4BD7-A65B-E9B382E178DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C93E0427-790B-4BD7-A65B-E9B382E178DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C93E0427-790B-4BD7-A65B-E9B382E178DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C93E0427-790B-4BD7-A65B-E9B382E178DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {43E32CED-A1BD-4B38-B6B9-2311F1F7BC14}
+	EndGlobalSection
+EndGlobal
