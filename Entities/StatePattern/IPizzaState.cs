@@ -6,6 +6,43 @@ using System.Threading.Tasks;
 
 namespace DDDObjects.Entities.StatePattern
 {
+    /// <summary>
+    /// Good Implementation
+    /// </summary>
+    /// 
+    //using this implement for true implementation without need to implement a lot of classes
+    // should implement and type code as much as we need no more code.
+    public abstract class Pizza2
+    {
+
+    }
+    public sealed class OrderPizza2 : Pizza2
+    {
+        CookPizza2 GetOrder()
+        {
+            return new CookPizza2();
+        }
+
+    }
+
+    public sealed class CookPizza2 : Pizza2
+    {
+        DeliveryPizza2 Cook()
+        {
+            return new DeliveryPizza2();
+        }
+    }
+    public sealed class DeliveryPizza2 : Pizza2
+    {
+
+    }
+
+
+
+
+    /// <summary>
+    ///  Bad Implementation
+    /// </summary>
     public interface IPizzaState
     {
         void GetOrder();
